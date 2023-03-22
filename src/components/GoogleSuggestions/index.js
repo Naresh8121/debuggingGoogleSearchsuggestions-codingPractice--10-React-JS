@@ -13,7 +13,7 @@ class GoogleSuggestions extends Component {
   updateSearchInput = value => {
     // FIX2: The setState() object syntax should be as the below statement
     this.setState({
-      searchInput: event.target.value,
+      searchInput:value,
     })
   }
 
